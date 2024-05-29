@@ -77,21 +77,3 @@ export const deleteSearchParams = (type: string) => {
 
   return newPathname;
 };
-
-// export const generateCarImageUrl = (car: CarProps, angle?: string) => {
-//   const url = new URL("https://freetestapi.com/api/v1/cars?sort=name&order=dec");
-//   console.log(url.);
-//   const { make, model, year } = car;
-
-//   // url.searchParams.append('customer', process.env.NEXT_PUBLIC_IMAGIN_API_KEY || 'hrjavascript-mastery');
-//   url.searchParams.append('make', make);
-//   url.searchParams.append('modelFamily', model.split(" ")[0]);
-//   url.searchParams.append('zoomType', 'fullscreen');
-//   url.searchParams.append('modelYear', `${year}`);
-//   // url.searchParams.append('zoomLevel', zoomLevel);
-//   url.searchParams.append('angle', `${angle}`);
-
-//   return `${url}`;
-// }
-
-

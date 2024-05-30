@@ -16,7 +16,7 @@
 // } catch (error) {
 // 	console.error(error);
 // }
-import { CarProps } from "@/types";
+import { CarProps,FilterProps } from "@/types";
 export async function fetchCars(filters: FilterProps) {
   const { manufacturer, year, model, limit, fuel } = filters;
   const headers = {
